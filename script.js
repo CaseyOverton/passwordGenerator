@@ -48,23 +48,11 @@ if (promptNumber){
     }
     console.log(chosenCharacters)
 }
-
   for (var i = 0; i < passwordLength; i++) {
     
-//  if (promptLower !== null) {
-  password += chosenCharacters[Math.floor(Math.random() * chosenCharacters.length)];
-//   }
-// else {
-//   password += upperCase.split(",")[Math.floor(Math.random() * 26)];
-// }
-
-
-    
-
-    
-  } //for loop
-
-  return password;
+    password += chosenCharacters[Math.floor(Math.random() * chosenCharacters.length)];
+} //for loop
+return password;
 } //functiom
 
 
@@ -72,8 +60,7 @@ if (promptNumber){
 generateBtn.addEventListener("click", writePassword);
 
 
-//var upperCase = [A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z]
-// var specialChar = [!, @, #, ]
+
 
 
 // make a promp when generate button is pushed. 
