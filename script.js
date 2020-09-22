@@ -17,8 +17,8 @@ function generatePassword() {
   var specialCharacters = "!,@,#,$,%,^,&,*,(,)".split(",")
   var numbers = "1,2,3,4,5,6,7,8,9,0".split(",")
   var chosenCharacters = []
-  var passwordLength = prompt("How many characters do you want your password to be");
-  var promptSpecial = confirm("Do you want special Characters? ('OK' for YES or 'Cancel' for No");
+  var passwordLength = prompt("How many characters do you want your password to be?");
+  var promptSpecial = confirm("Do you want special Characters? (Y or N)");
   var promptUpper = confirm("Do you want uppercase? (Y or N)");
   var promptLower = confirm("Do you want lowercase? (Y or N)");
   var promptNumber = confirm("Do you want numbers? (Y or N)");
